@@ -4,6 +4,7 @@ const PHRASES = [
   "building the 2026 mls value index",
   "scoring keepers beyond goals allowed",
   "ranking college basketball development",
+  "scoring hidden nba impact",
   "modeling nhl expected goals",
   "measuring mlb pitch stuff+",
   "building sports analytics for free",

@@ -45,6 +45,21 @@ export const projects: Project[] = [
     hrefLabel: "live app",
   },
   {
+    slug: "nba-decision-intelligence",
+    title: "nba decision intelligence",
+    dates: "jun 2026 – aug 2026",
+    sport: "basketball",
+    featured: true,
+    blurb:
+      "which nba players create more team impact than the box score would predict?",
+    detail:
+      "scores hidden on-court impact as team-adjusted plus-minus minus an out-of-fold box-score expectation model, then shrinks the residual into season ioe percentiles. copilot, compare, role & fit, and methodology run against stored player-seasons only — tools stay deterministic; the model does not invent stats. a team-change model did not beat a mean baseline, so fit finder is a need screen rather than an acquisition predictor. 4,474 player-seasons, 2018–19 through 2025–26; public window 2023–24 through 2025–26.",
+    tags: ["react", "fastapi", "python", "postgresql"],
+    note: "30 teams · 4,474 player-seasons",
+    href: "https://github.com/shirinalapati/NBA-Decision-Intelligence",
+    hrefLabel: "github",
+  },
+  {
     slug: "developmentiq",
     title: "developmentiq",
     dates: "may 2026 – jul 2026",
