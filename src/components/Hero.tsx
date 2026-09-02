@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 const PHRASES = [
   "building the 2026 mls value index",
   "scoring keepers beyond goals allowed",
+  "forecasting nba player trajectories",
+  "measuring nfl pre-snap predictability",
   "ranking college basketball development",
   "scoring hidden nba impact",
   "modeling nhl expected goals",
@@ -25,8 +27,8 @@ export function Hero() {
         shirin&apos;s sports analytics lab.
       </h1>
       <p className="reveal mt-4 max-w-xl font-sans text-base leading-relaxed text-[var(--fg)]/85 delay-100 sm:text-lg">
-        i build insightful sports analytics across baseball, basketball, soccer,
-        and hockey — for free.
+        i build insightful sports analytics across baseball, basketball, football,
+        soccer, and hockey — for free.
       </p>
 
       <p className="reveal mt-8 font-mono text-[13px] text-[var(--fg)] delay-200 sm:text-sm">

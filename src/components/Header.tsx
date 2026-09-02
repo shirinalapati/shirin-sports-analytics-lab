@@ -5,6 +5,7 @@ import { useTheme } from "../lib/theme";
 const links = [
   { href: "#baseball", label: "baseball" },
   { href: "#basketball", label: "basketball" },
+  { href: "#football", label: "football" },
   { href: "#soccer", label: "soccer" },
   { href: "#hockey", label: "hockey" },
 ];
@@ -42,7 +43,7 @@ export function Header() {
           <span className="inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] align-middle transition-transform group-hover:scale-125" />
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-5 lg:gap-8 md:flex">
           {links.map((l) => (
             <a
               key={l.href}

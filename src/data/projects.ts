@@ -1,4 +1,4 @@
-export type Sport = "soccer" | "basketball" | "hockey" | "baseball";
+export type Sport = "soccer" | "basketball" | "hockey" | "baseball" | "football";
 
 export type Project = {
   slug: string;
@@ -43,6 +43,21 @@ export const projects: Project[] = [
     tags: ["next.js", "typescript", "python", "duckdb"],
     href: "https://mls-goalkeeping-iq.vercel.app/",
     hrefLabel: "live app",
+  },
+  {
+    slug: "courtmotion",
+    title: "courtmotion intelligence",
+    dates: "aug 2026 – sep 2026",
+    sport: "basketball",
+    featured: true,
+    blurb:
+      "which model best predicts the next four seconds of nba player and ball movement?",
+    detail:
+      "compares six forecasting approaches on public 2015–16 sportvu tracking: two seconds of ten-player-and-ball locations in, four seconds of predicted paths out, scored in court feet. a social gru that pools nearby-player context cut four-second player ade from 9.29 ft (constant velocity) to 5.48 ft on 94 held-out games — the only learned model to beat that baseline. 632 parsed games, 631 with eligible windows, october 27, 2015 through january 23, 2016; the dump is not a full regular season. historical tracking benchmark, not a play-calling or player-ranking tool.",
+    tags: ["python", "pytorch", "fastapi", "react"],
+    note: "github only — run locally from the readme",
+    href: "https://github.com/shirinalapati/CourtMotion_Intelligence",
+    hrefLabel: "github",
   },
   {
     slug: "nba-decision-intelligence",
@@ -112,6 +127,21 @@ export const projects: Project[] = [
     tags: ["react", "fastapi", "sqlite", "python"],
     href: "https://2026-march-madness-ebon.vercel.app/",
     hrefLabel: "live app",
+  },
+  {
+    slug: "nfl-predictability",
+    title: "predictability without punishment",
+    dates: "aug 2026",
+    sport: "football",
+    featured: true,
+    blurb:
+      "how predictable was every nfl offense before the snap in 2025 — and did it matter?",
+    detail:
+      "leakage-safe walk-forward run/pass probabilities for 34,502 designed 2025 calls, including playoffs. xgboost reached 0.495 log loss and 0.829 roc-auc. atlanta was most predictable (71.0% raw, opi 135.5); green bay least (63.5%, opi 72.1). opi and epa/play had a −0.33 spearman relationship — descriptive, not causal. public nflverse pbp and participation; no post-snap features.",
+    tags: ["python", "xgboost", "nflverse"],
+    note: "github only — no live app",
+    href: "https://github.com/shirinalapati/NFL_Predictability",
+    hrefLabel: "github",
   },
   {
     slug: "nhl-xg",
@@ -237,8 +267,9 @@ export const projects: Project[] = [
 export const sportSections: { id: Sport; n: string }[] = [
   { id: "baseball", n: "01" },
   { id: "basketball", n: "02" },
-  { id: "soccer", n: "03" },
-  { id: "hockey", n: "04" },
+  { id: "football", n: "03" },
+  { id: "soccer", n: "04" },
+  { id: "hockey", n: "05" },
 ];
 
 export const socials = {
