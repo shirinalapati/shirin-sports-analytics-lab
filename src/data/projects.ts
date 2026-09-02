@@ -139,9 +139,8 @@ export const projects: Project[] = [
     detail:
       "leakage-safe walk-forward run/pass probabilities for 34,502 designed 2025 calls, including playoffs. xgboost reached 0.495 log loss and 0.829 roc-auc. atlanta was most predictable (71.0% raw, opi 135.5); green bay least (63.5%, opi 72.1). opi and epa/play had a −0.33 spearman relationship — descriptive, not causal. public nflverse pbp and participation; no post-snap features.",
     tags: ["python", "xgboost", "nflverse"],
-    note: "github only — no live app",
-    href: "https://github.com/shirinalapati/NFL_Predictability",
-    hrefLabel: "github",
+    href: "https://nflpredictability.streamlit.app/",
+    hrefLabel: "live app",
   },
   {
     slug: "nhl-xg",
