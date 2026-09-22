@@ -16,6 +16,20 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "passing-under-pressure",
+    title: "passing under pressure",
+    dates: "sep 2026",
+    sport: "soccer",
+    featured: true,
+    blurb:
+      "which teams and players take the most productive passing risks under pressure?",
+    detail:
+      "scores every pressured open-play pass at the 2023 fifa women's world cup on three unweighted pillars — execution versus independently trained expected completion (cpoe), attacking value created (xt added), and opponent danger after genuine turnovers — without collapsing them into one best-passer score. 64 matches, 32 national teams, 10,660 pressured passes from statsbomb open data. searchable leaderboards, team scatterplots, player compare, a pass explorer, and a methodology page with calibration. public event data only.",
+    tags: ["react", "fastapi", "python", "statsbomb"],
+    href: "https://passing-under-pressure.vercel.app/",
+    hrefLabel: "live app",
+  },
+  {
     slug: "mls-value-index",
     title: "mls value index",
     dates: "feb 2026 – present",
