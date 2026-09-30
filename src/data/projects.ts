@@ -196,6 +196,34 @@ export const projects: Project[] = [
     hrefLabel: "live app",
   },
   {
+    slug: "pitchvision",
+    title: "pitchvision",
+    dates: "2026",
+    sport: "baseball",
+    featured: true,
+    blurb:
+      "which pitches look the same for the first 150 milliseconds — and does that similarity predict whiffs better than a simpler description of the flight?",
+    detail:
+      "2026 regular-season statcast. a contrastive transformer embeds the early trajectory; the app shows arsenal overlap, pair paths, and adjusted whiff association. on the frozen test (aug 30–sep 26) the embedding slightly beat geometric separation and lost to raw differences in velocity, release, and movement. september 27 is a separate prospective holdout. not a stuff grade, and not a measurement of what a hitter sees.",
+    tags: ["react", "fastapi", "pytorch", "statcast"],
+    href: "https://pitchvision-production-c5b4.up.railway.app/",
+    hrefLabel: "live app",
+  },
+  {
+    slug: "pitchiq-live",
+    title: "pitchiq live",
+    dates: "2026",
+    sport: "baseball",
+    featured: true,
+    blurb:
+      "what pitch should come next — type and location — if the goal is estimated pitcher run value?",
+    detail:
+      "live decision support during a game. after each pitch it ranks the pitch types and location regions that pitcher actually uses, by estimated run value, with a support floor. lightgbm on 2023–2026 statcast; profiles are as of the day before the pitch. the pitch that was thrown is not the correct answer, and the score is not a claim that the recommendation was causally optimal.",
+    tags: ["python", "lightgbm", "fastapi", "statcast"],
+    href: "https://pitchiq-live-production.up.railway.app/",
+    hrefLabel: "live app",
+  },
+  {
     slug: "projection-signal-lab",
     title: "projection signal lab",
     dates: "2026",
