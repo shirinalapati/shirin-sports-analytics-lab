@@ -196,6 +196,21 @@ export const projects: Project[] = [
     hrefLabel: "live app",
   },
   {
+    slug: "game-of-inches",
+    title: "game of inches",
+    dates: "2026",
+    sport: "baseball",
+    featured: true,
+    blurb:
+      "a 3d replay of how an outfielder’s starting position can change a catch. built for the 2026 smt data challenge.",
+    detail:
+      "compares the recorded route with a simulated ghost fielder who starts at the league-average spot for that outfield position. estimated catch probabilities use a published statcast distance-and-opportunity-time chart, with an adjustment for running backward. distance saved is how much less ground the actual start needed. san josé state university, team 227, with ethan nepo and jacob crumley. 3d stadium and player assets adapted from solomon gumball’s baseball-sim.",
+    tags: ["react", "three.js", "smt"],
+    note: "2026 smt data challenge · honorable mention",
+    href: "https://shirinalapati.github.io/smt-shift-replay/#/",
+    hrefLabel: "live app",
+  },
+  {
     slug: "pitchvision",
     title: "pitchvision",
     dates: "2026",
