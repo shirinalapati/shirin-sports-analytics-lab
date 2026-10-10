@@ -10,6 +10,7 @@ export type Project = {
   detail: string;
   tags: string[];
   note?: string;
+  paper?: { title: string; href: string };
   href: string;
   hrefLabel: "live app" | "github";
 };
@@ -251,6 +252,11 @@ export const projects: Project[] = [
     tags: ["react", "typescript", "python", "statcast"],
     href: "https://future-predictor-green.vercel.app/",
     hrefLabel: "live app",
+    paper: {
+      title:
+        "one metric, different jobs: target-specific feature admission for major league baseball player projection",
+      href: "https://zenodo.org/records/22050908",
+    },
   },
   {
     slug: "arsenal-intelligence",

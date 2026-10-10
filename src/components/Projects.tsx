@@ -88,6 +88,19 @@ function ProjectRow({ project }: { project: Project }) {
           </span>
         ))}
       </div>
+      {project.paper && (
+        <p className="mt-3 max-w-xl text-sm leading-relaxed text-[var(--muted)]">
+          research paper:{" "}
+          <a
+            href={project.paper.href}
+            target="_blank"
+            rel="noreferrer"
+            className="underline-swap text-[var(--fg)]"
+          >
+            {project.paper.title} →
+          </a>
+        </p>
+      )}
       {project.note && (
         <p className="mt-3 font-mono text-[11px] text-[var(--accent)]">{project.note}</p>
       )}
