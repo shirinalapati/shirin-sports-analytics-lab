@@ -197,6 +197,20 @@ export const projects: Project[] = [
     hrefLabel: "live app",
   },
   {
+    slug: "arsenal-forecasting",
+    title: "arsenal forecasting",
+    dates: "oct 2026",
+    sport: "baseball",
+    featured: true,
+    blurb:
+      "can we forecast next-season mlb pitcher arsenals well enough to beat “same as last year”?",
+    detail:
+      "two independent approaches, each locked before scoring, then combined into one 2027 forecast. 2021–2026 statcast season aggregates; test year 2025→2026 (412 pitchers). the official mix model beat last year’s usage by 4.9% on total-variation error; the steadier reading is about 2.0% better than simple shrinkage. who will change ranks above chance, but most movement stays unpredictable, and the benefit to hitters is untested. the app has 2027 mix forecasts, a change watchlist, evaluation, and a 15-minute presentation.",
+    tags: ["react", "python", "lightgbm", "statcast"],
+    href: "https://shirinalapati.github.io/arsenal-forecasting/",
+    hrefLabel: "live app",
+  },
+  {
     slug: "game-of-inches",
     title: "game of inches",
     dates: "2026",
